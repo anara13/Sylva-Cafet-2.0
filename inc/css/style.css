@@ -1,0 +1,36 @@
+/**************************************************** GENERAL ************************************************/
+*{ margin: 0; }
+body{ font-family : verdana; font-size: 12px; }
+a{ text-decoration: none; color: #000; }
+.conteneur{ margin: 0 auto; max-width: 1170px; }
+/**************************************************** HAUT ************************************************/
+header { background: #000000; padding: 5px; text-align: center; }
+header  span{ color: #fff; font-weight: bold; text-transform: uppercase; margin-right: 5%; }
+header  nav{ display: inline; }
+header  a{ color: #ffffff; text-decoration: none; padding: 5px 5px; }
+header  nav  a:hover{ background: #04baf6; }
+/**************************************************** MILIEU ************************************************/
+section{ padding: 30px; min-height: 800px; }
+/**************************************************** BAS ************************************************/
+footer{ background: #000; color: white; text-align: center; padding: 7px 0;}
+/**************************************************** GENERAL ************************************************/
+.erreur{ background: #ff0000; padding: 5px; margin: 5px; }
+.validation{ background: #669933; padding: 5px; margin: 5px; }
+.cadre{ border: 1px solid #c0c0c0; width: 30%;}
+.cadre  h2{ background: #c0c0c0; margin: 0; text-align: center; font-size: 15px; padding: 5px; }
+.cadre  p{ padding: 10px; }
+.centre{text-align: center;}
+/**************************************************** BOUTIQUE ************************************************/
+.boutique-gauche{ float: left; width: 30%; background: #f2f2f2; min-height: 500px; margin-right: 10%; padding-top: 10px; text-align: center; }
+.boutique-gauche  ul{ list-style: none; padding: 0; }
+.boutique-gauche  ul  li  a{ display: block; padding: 10px; }
+.boutique-gauche  ul  li  a:hover{ background: #04baf6; color: #fff; }
+.boutique-droite{float: left; width: 60%; }
+.boutique-produit{ float: left; width: 30%; text-align: center; padding: 5%; border-bottom: 1px solid #c0c0c0; }
+.boutique-produit:hover{ background: #c0c0c0; }
+/**************************************************** DIVERS ************************************************/
+table{ border-collapse: collapse; }
+table tr td{
+text-align: center;
+}
+td, th{ padding: 5px; }

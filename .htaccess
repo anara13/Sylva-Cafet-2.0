@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L] 
+
+# permet de ne pas voir l'extension .php des pages dans la barre URL, il faut cependant adapter les liens dans les a href sans mettre l'extension !
